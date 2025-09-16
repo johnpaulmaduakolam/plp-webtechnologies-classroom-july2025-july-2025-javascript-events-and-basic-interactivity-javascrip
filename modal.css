@@ -1,0 +1,90 @@
+/* Modal styles popup */
+
+
+body {
+    background-color: #fff;
+    color: #222;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  .modal {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .openModal {
+            background-color: #222;
+            color: #fff;
+            display: block;
+            margin: 16px auto;
+            font-size: 18px;
+            font-weight: bolder;
+            border-radius: 10px;
+            border: none;
+            padding: 12px 32px;
+            box-shadow: 0 2px 1px lightgray;
+        }
+
+        .m-buttons {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            gap: 32px;
+            margin-top: 1rem;
+        }
+
+        .close-btn {
+            background-color: gold;
+            color: #222;
+            font-size: 18px;
+            font-weight: bolder;
+            border-radius: 10px;
+            border: none;
+            padding: 8px 24px;
+            box-shadow: 0 2px 1px lightgray;
+        }
+
+        .save-btn {
+            background-color: #fff;
+            color: #222;
+            font-size: 18px;
+            font-weight: bolder;
+            border-radius: 10px;
+            border: 2px solid gold;
+            padding: 8px 24px;
+            box-shadow: 0 2px 1px lightgray;
+        }
+
+        .modal-content {
+            background-color: #222;
+            color: #fff;
+            border-radius: 15px;
+            width: 50%;
+            max-width: 400px;
+            height: 150px;
+            text-align: center;
+            transform: translateY(1000%);
+            margin: 5rem auto;
+
+        }
+
+        .show{
+            transform: translateY(0);
+            transition: all 0.5s;
+        }
+
+        .para {
+            padding: 1.5rem 0;
+            text-align: center;
+            font-weight: 400;
+        }

@@ -1,0 +1,36 @@
+/* Dark mode styles */
+
+body {
+    background-color: #fff;
+    color: #222;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+
+button {
+    display: block;
+    background-color: #222;
+    color: #fff;
+    margin: 2rem auto;
+    padding: 12px 32px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
